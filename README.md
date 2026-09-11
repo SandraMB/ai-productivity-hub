@@ -1,58 +1,141 @@
-# AI Productivity Hub
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web app called AI Workplace Productivity Assistant.
+## Project Overview
 
-Create a polished, friendly professional dashboard using royal blue, white, soft blue, and neutral complementary colours, with clean typography, rounded cards, subtle shadows, modern icons, smooth interactions, and excellent desktop/mobile responsiveness.
+**AI Workplace Productivity Assistant** is a modern, responsive
+SaaS-style web application designed to help professionals improve
+workplace productivity using AI-powered tools.
 
-No backend, database, API, authentication, login, registration, or sign-up. Use realistic mock AI-generated responses and frontend/local state.
+The application provides a centralized workspace for generating
+professional emails, planning tasks, and interacting with an AI
+workplace assistant. It focuses on a clean, friendly, and professional
+user experience with a royal-blue and white visual identity.
 
-Core layout
+This project is a **frontend-only prototype**. AI responses and saved
+content are simulated using frontend/local state, so no backend,
+database, authentication, or external AI API is required.
 
-Use a sidebar with:
+## Features Implemented
 
-Dashboard
+### 📧 AI Email Generator
 
-AI Email Generator
+-   Generate professional workplace emails from user-provided context.
+-   Choose between **Formal, Friendly, and Persuasive** tones.
+-   Generate short, standard, or detailed responses.
+-   Edit generated emails.
+-   Improve, regenerate, copy, and save AI-generated content.
 
-AI Task Planner
+### 📋 AI Task Planner
 
-AI Workplace Chat
+-   Create daily or weekly productivity plans.
+-   Add tasks, priorities, and deadlines.
+-   Generate prioritized schedules.
+-   Organize work into realistic focus periods and breaks.
+-   Edit and regenerate plans.
 
-AI Insights
+### 💬 AI Workplace Chat
 
-Saved Work
+-   Interactive AI workplace assistant interface.
+-   Get assistance with brainstorming, decision-making, meetings,
+    writing, productivity, and workplace problem-solving.
+-   Includes suggested prompts for common workplace tasks.
+-   Provides simulated AI-generated responses.
 
-Settings
+### 📊 Dashboard & AI Insights
 
-AI Email Generator
+-   Personalized productivity dashboard.
+-   Today's priorities and upcoming tasks.
+-   Productivity summaries.
+-   AI-generated recommendations and workplace insights.
+-   Recent AI-generated work.
 
-Allow users to enter email context, choose Formal, Friendly, or Persuasive tone and generate a professional email. Make outputs editable with Edit, Improve, Regenerate, Copy, and Save actions.
+### 💾 Saved Work
 
-AI Task Planner
+-   Save and access generated emails, task plans, conversations, and
+    recommendations.
+-   Uses frontend/local state rather than a database.
 
-Allow users to enter tasks, choose Daily or Weekly, set priorities/deadlines, and generate a realistic prioritized schedule. Include focus time and breaks. Make plans editable and regeneratable.
+### 🎨 User Experience
 
-AI Workplace Chat
+-   Responsive desktop, tablet, and mobile design.
+-   Modern SaaS dashboard layout.
+-   Sidebar navigation.
+-   Editable AI outputs.
+-   Loading, empty, and error states.
+-   Copy, save, improve, and regenerate actions.
+-   Responsible AI disclaimer.
 
-Create a polished conversational AI assistant for workplace questions, brainstorming, decision-making, meeting preparation, writing help, productivity, and recommendations. Include suggested prompts and realistic mock responses.
+## Technologies and Tools Used
 
-This project was built with [Lovable](https://lovable.dev).
+-   **React** --- Component-based user interface development.
+-   **TypeScript** --- Type-safe application development.
+-   **Vite** --- Fast frontend development and build tooling.
+-   **Tailwind CSS** --- Responsive styling and design system.
+-   **shadcn/ui** --- Reusable modern UI components.
+-   **Lucide React** --- Interface icons.
+-   **Lovable** --- AI-assisted application development and prototyping.
+-   **Git & GitHub** --- Version control and project repository
+    management.
 
-## Build with Lovable
+## Setup Instructions
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/d46cd6cf-9da7-4900-9b45-b624378ced89).
+### Prerequisites
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Make sure the following are installed:
 
-## Development
+-   Node.js (LTS recommended)
+-   npm
+-   Git
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### 1. Clone the repository
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+``` bash
+git clone <your-repository-url>
+cd ai-workplace-productivity-assistant
+```
+
+### 2. Install dependencies
+
+``` bash
+npm install
+```
+
+### 3. Start the development server
+
+``` bash
 npm run dev
 ```
+
+Open the local URL displayed in the terminal, typically:
+
+``` text
+http://localhost:5173
+```
+
+### 4. Build for production
+
+``` bash
+npm run build
+```
+
+### 5. Preview the production build
+
+``` bash
+npm run preview
+```
+
+## Responsible AI
+
+The application is intended as a productivity support tool. AI-generated
+content may contain inaccuracies or unsuitable recommendations and
+should be reviewed by the user before being used in a professional
+setting. AI output should not replace professional judgment,
+organizational policies, or human decision-making.
+
+## Project Status
+
+**Status:** Frontend prototype / portfolio project
+
+The current version does not use a backend, database, authentication
+system, or live AI API. AI functionality is represented through
+simulated responses and frontend interactions.
